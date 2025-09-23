@@ -1,0 +1,16 @@
+{
+  "name": "web-separate-files-project",
+  "version": "1.0.0",
+  "description": "A project that generates separate HTML, CSS, and JavaScript files.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
