@@ -127,10 +127,14 @@ section {
   background: linear-gradient(rgba(245, 230, 211, 0.78), rgba(245, 230, 211, 0.71)), url('../assets/BACKGROUND.png') center/cover no-repeat fixed;
 }
 .historia {
+  display: flex;
+  align-items: center;
   text-align: center;
-  margin: auto;
   font-size: 1.2rem;
   justify-content: center;
+}
+.historia p {
+  margin-bottom: 1.5rem;
 }
 .historia-video {
   border-radius: 3rem;
