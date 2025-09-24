@@ -498,12 +498,9 @@ section {
 
 /* Responsivo */
 @media (max-width: 768px) {
-  .hero-content { padding: 1.5rem 0.7rem; }
+  .hero-content { padding: 1.5rem 0.7rem; max-width: 100%}
 .hero-banner {
-    height: auto;       /* Deixa o banner com altura automática */
-    width: 100%;        /* Mantém largura fluida */
-    max-width: 380px;   /* Limita a largura máxima do banner */
-    margin: 0 auto;
+    height: 30vh; width: 30vw; margin:auto;
   }
   .banner {object-fit: contain; /* Mostra a imagem inteira no mobile */}
   .galeria-grid { grid-template-columns: 1fr; }
