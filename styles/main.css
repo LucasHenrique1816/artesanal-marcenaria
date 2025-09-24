@@ -499,7 +499,7 @@ section {
 /* Responsivo */
 @media (max-width: 768px) {
   .hero-content { padding: 1.5rem 0.7rem; }
-  .hero-banner { margin:auto; height:30vh; width:30vw; /* Ajusta a altura no mobile */}
+  .hero-banner { margin:auto; height:30vh; max-width:100%; /* Ajusta a altura no mobile */}
   .banner {object-fit: contain; /* Mostra a imagem inteira no mobile */}
   .galeria-grid { grid-template-columns: 1fr; }
   .processo-steps { flex-direction: column; gap: 1rem; justify-content:center; align-items:center; }
